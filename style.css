@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+    color: orangered;
     margin: 20px 0;
 }
 #container{
@@ -49,6 +50,7 @@ select, input {
     justify-content: center;
 }
 
+
 .product {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -72,4 +74,20 @@ select, input {
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 10px;
+}
+
+.product-name {
+    color:orangered;
+    font-weight: bold;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: auto;
+}
+
+.product-container .product-name {
+    margin-top: 10px; /* Resimden metne boşluk ekler */
 }
